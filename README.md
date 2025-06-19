@@ -196,8 +196,12 @@ void loop() {
 }
 
 👨‍💻 Autor
+
+
 Desenvolvido por João Pedro Palmeira
 
 
 📜 Licença
+
+
 Este projeto é de código aberto, sob a licença MIT. Sinta-se livre para usar, modificar e compartilhar.
