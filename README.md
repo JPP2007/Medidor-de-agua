@@ -9,7 +9,8 @@ Este projeto propõe um Sistema de Medição e Alerta de Nível de Água utiliza
 
 📷 Ilustração do Projeto
 
-Imagem da montagem ==> ![Medidor-de-agua](https://github.com/user-attachments/assets/fa1597a5-9c71-4b86-b957-4ff2295cbfa1)
+Imagem da montagem ==> ![Medidor-de-agua](https://github.com/user-attachments/assets/c2a6ca02-30f9-4946-89ed-dd341250371c)
+
 
 
 🧰 Componentes Utilizados
