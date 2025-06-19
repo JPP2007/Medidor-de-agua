@@ -45,14 +45,18 @@ Vermelho + buzzer: nível crítico (risco de enchente)
 
 Os eventos críticos são registrados na EEPROM com data e hora pelo RTC.
 
-🔬 Simulação Online
-🧪 Acesse a Simulação
+ 🔬 Acesse a Simulação Online
+
+
 🔗 Simular no Wokwi ==> https://wokwi.com/projects/434123898181502977
 
 🎥 Vídeo Demonstrativo 
+
+
+
 📺 Assista ao vídeo explicativo aqui ==> https://youtu.be/ID-Zg_hF6O8?si=NQBlu5XZkGzBMZ94
 
-⚠️ Envie o link do seu vídeo quando disponível.
+
 
 🧾 Código-Fonte (Arduino .ino)
 
