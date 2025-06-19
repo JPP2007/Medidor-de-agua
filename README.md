@@ -2,18 +2,30 @@
 🌊 Medidor de Nível de Água com Alerta de Enchentes
 
 🛑 Problema
+
+
+
 No Brasil e em diversas partes do mundo, enchentes são tragédias recorrentes que causam perdas humanas, materiais e ambientais. A falta de sistemas de alerta eficientes e acessíveis dificulta a resposta rápida da população em áreas de risco. Muitas comunidades não têm acesso a tecnologias que avisem antecipadamente sobre o aumento do nível da água.
 
 💡 Solução Proposta
+
+
+
 Este projeto propõe um Sistema de Medição e Alerta de Nível de Água utilizando a plataforma Arduino UNO, sensores de distância (ultrassônicos), LEDs de alerta, buzzer sonoro, um display LCD I2C, RTC (Relógio de Tempo Real) e EEPROM para armazenamento dos eventos.
 
 📷 Ilustração do Projeto
+
+
 
  ![Medidor-de-agua](https://github.com/user-attachments/assets/c2a6ca02-30f9-4946-89ed-dd341250371c)
 
 
 
 🧰 Componentes Utilizados
+
+
+
+
 Arduino UNO
 
 Sensor Ultrassônico HC-SR04
@@ -31,6 +43,10 @@ EEPROM interna do Arduino
 Protoboard e jumpers
 
 🧭 Como Funciona
+
+
+
+
 O sensor ultrassônico mede continuamente a distância do nível da água.
 
 O LCD mostra o nível atual e a hora.
@@ -46,6 +62,9 @@ Vermelho + buzzer: nível crítico (risco de enchente)
 Os eventos críticos são registrados na EEPROM com data e hora pelo RTC.
 
 💡 Funcionamento
+
+
+
 - *0 a 5 cm* → LED verde aceso, mensagem Baixo, buzzer desligado.
 - *6 a 10 cm* → LED amarelo aceso, mensagem Atencao, buzzer ligado.
 - *11 cm ou mais* → LED vermelho aceso, mensagem Perigo, buzzer ligado, evento salvo na EEPROM.
@@ -66,6 +85,8 @@ Os eventos críticos são registrados na EEPROM com data e hora pelo RTC.
 
 
 🧾 Código-Fonte (Arduino .ino)
+
+
 
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
