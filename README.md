@@ -45,6 +45,13 @@ Vermelho + buzzer: nível crítico (risco de enchente)
 
 Os eventos críticos são registrados na EEPROM com data e hora pelo RTC.
 
+💡 Funcionamento
+- *0 a 5 cm* → LED verde aceso, mensagem Baixo, buzzer desligado.
+- *6 a 10 cm* → LED amarelo aceso, mensagem Atencao, buzzer ligado.
+- *11 cm ou mais* → LED vermelho aceso, mensagem Perigo, buzzer ligado, evento salvo na EEPROM.
+- O RTC fornece horário no display e para os registros.
+- O LCD exibe nível e hora.
+
  🔬 Acesse a Simulação Online
 
 
